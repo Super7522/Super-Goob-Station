@@ -26,17 +26,12 @@
 
 - type: entity
   id: OrganHydrakinStomach
-  parent: BaseHydrakinOrgan
+  parent: [ BaseHydrakinOrgan, OrganHumanStomach ]
   name: hydrakin stomach
   components:
   - type: Sprite
     state: stomach
   - type: Stomach
-    specialDigestible:
-      tags:
-      - ReptilianFood
-      - Meat
-    isSpecialDigestibleExclusive: false # goob edit
   - type: Organ
     slotId: stomach
   - type: Metabolizer
