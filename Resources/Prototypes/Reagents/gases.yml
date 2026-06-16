@@ -624,6 +624,9 @@
         - !type:OrganType
           type: Slime
           shouldHave: false
+        - !type:OrganType # Mono - Hydrakin
+          type: Hydrakin
+          shouldHave: false
         - !type:OrganType # Shitmed - Cybernetic Organs
           type: Cybernetic
           shouldHave: false
