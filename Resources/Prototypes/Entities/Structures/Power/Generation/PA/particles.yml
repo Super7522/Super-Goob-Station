@@ -81,5 +81,5 @@
   - type: TimedDespawn
     lifetime: 0.6
   - type: SinguloFood
-    energy: -10
+    energy: -50 # Goobstation - used to be -10, so agaisnt a tesla at minimum size, it would take around 20 shots to kill it
     energyFactor: 0.97

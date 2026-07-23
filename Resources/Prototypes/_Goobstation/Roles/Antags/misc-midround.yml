@@ -33,6 +33,7 @@
   storage:
     back:
     - MedkitCombatFilled
+    - WeaponParticleDecelerator
 
 - type: startingGear
   id: DarkLordAntagGear
